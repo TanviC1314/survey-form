@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Boogaloo&family=Lobster&display=swap" rel="stylesheet">
+  <style>
+body {
+  background-image: url("temp.png");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+    div.ex2 {
+      width:72%;
+    padding:10px;
+      max-width:700px;
+      border-radius: 25px;
+        text-align: center;
+      font-size:32px;
+      font-family: 'Lobster', cursive;
+  margin: auto;
+      
+      background-color: white;
+      
+}
+    textarea:focus, input:focus{
+    outline: none;
+}
+    .img1{
+      padding-left:20px;
+    }
+    
+    div.ex3 {
+      width:78%;
+    padding:27px;
+      max-width:700px;
+      border-radius: 15px;
+        text-align: left;
+      padding-left:30px;
+      font-family: 'Akaya Telivigala', cursive;
+  margin: auto;
+      
+      background-color: white;
+      
+}
+    .tv {
+      border:0;
+       border-bottom: 1px solid black;
+      text-align: left;
+      marging-right:20;
+      font-size:22px;
+      width:61%;
+      word-wrap: break-word;
+      font-family: 'Akaya Telivigala', cursive;
+    }
+
+    .tv2 {
+      border:0;
+       border-bottom: 1px solid black;
+      text-align: left;
+      marging-right:20;
+      font-size:22px;
+      width:61%;
+       word-wrap: break-word;
+      font-family: 'Akaya Telivigala', cursive;
+    }
+    .tv33 {
+      border:0;
+       border-bottom: 1px solid black;
+      text-align: left;
+      height: 50px;
+    max-height: 50px;  
+      marging-right:20;
+      font-size:22px;
+      
+      width:61%;
+       word-wrap: break-word;
+      font-family: 'Akaya Telivigala', cursive;
+    }
+    .tv3{
+      border:0;
+       border-bottom: 1px solid black;
+      text-align: left;
+      marging-right:20;
+      resize: none;
+      font-size:22px;
+      width:61%;
+       word-wrap: break-word;
+      font-family: 'Akaya Telivigala', cursive;
+    }
+    
+    .sp{
+      display:block;
+    }
+    
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+   <script src="script.js"></script>
+  <script>
+    // window.onbeforeunload = function(event)
+    // {
+    //     return confirm("Confirm refresh");
+    // };
+
+
+    
+function myFunction(demo,t,name) {
+  document.getElementById(demo).style.display = "none"; 
+  var y = document.getElementById(t).innerHTML = name;
+  var x = document.getElementById(demo);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  document.getElementById(demo).innerHTML = y+"<br>";
+  document.getElementById(demo).style.paddingBottom = "10px"; 
+  document.getElementById(t).style.width = "80%"; 
+  document.getElementById(demo).style.fontSize = "24px"; 
+  
+
+}
+
+function myFunction2(demo,t,name) {
+  document.getElementById(demo).style.display = "none"; 
+  var y = document.getElementById(t).innerHTML = name;
+  var x = document.getElementById(demo);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  document.getElementById(demo).innerHTML = y+"<br>";
+  document.getElementById(demo).style.paddingBottom = "10px"; 
+  document.getElementById(t).style.width = "80%"; 
+  document.getElementById(demo).style.fontSize = "24px"; 
+  document.getElementById(t).style.overflow = "auto";
+  
+  
+
+}
+    function fun2(demo,t) {
+  document.getElementById(demo).style.display = "none"; 
+  document.getElementById(t).style.border = "0"; 
+  
+}
+    
+    function win() {
+  window.open("home.html");
+}
+
+
+function fun(demo,t) {
+  document.getElementById(demo).style.display = "none"; 
+  document.getElementById(t).style.border = "0"; 
+}
+    function all1() {
+  document.getElementById("all").style.display = "none"; 
+}
+
+
+function myFunction3(demo,t,name) {
+  document.getElementById(demo).style.display = "none"; 
+  var y = document.getElementById(t).innerHTML = "";
+  var x = document.getElementById(demo);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  document.getElementById(demo).innerHTML = name;
+  document.getElementById(demo).style.paddingBottom = "10px"; 
+  document.getElementById(t).style.width = "80%"; 
+  document.getElementById(demo).style.fontSize = "24px"; 
+  document.getElementById(t).style.overflow = "auto";
+  
+  
+
+}
+    function fun3(demo,t) {
+  document.getElementById(demo).style.display = "none"; 
+  document.getElementById(t).style.border = "0"; 
+  
+}
+
+function textAreaAdjust(element) {
+  element.style.height = "1px";
+  element.style.height = (1+element.scrollHeight)+"px";
+}
+    
+</script>
+<body>
+  <div id="all">
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhJ2dzFWoyhDRks4TRNwdipdVkqgjhPpZqAVhQenXkM_Zi0g/formResponse" method="post">
+    <br>
+  <div class="ex2"><img class="img1" src="smiling.png" width="38px">&nbsp;<span class="e2">About You</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></div><br>
+
+  <div class="ex3"  >
+    <span id="demo11" class="sp"></span>
+    <textarea onkeyup="textAreaAdjust(this)" style="overflow:hidden" class="tv3" name="a" rows="1" autocomplete="off" id="t11" placeholder="Describe Yourself" class="tv3" onblur="fun3('demo11','t11')" onfocus="myFunction3('demo11','t11','Describe Yourself')"></textarea>
+    <br></div><br>
+
+<!--   <div class="ex3"  >
+    <span id="demo12" class="sp"></span>
+  <textarea class="tv3" rows="1"></textarea>
+    <br></div><br> -->
+<!--     <span id="demo11" class="sp"></span>
+    <textarea name="entry.1171277350" value="new" autocomplete="off" id="t10" placeholder="Describe Yourself" class="tv3" onblur="fun('demo10','t10')" onfocus="myFunction('demo10','t10','')" > -->
+  
+  <div class="ex3"  >
+    <span id="demo1" class="sp"></span>
+    <input type="text" name="entry.1829514850" autocomplete="off" id="t1" placeholder="Name" class="tv" onblur="fun('demo1','t1')" onclick="myFunction('demo1','t1','Your Name')" >
+    <br></div><br>
+
+   <div class="ex3"  >
+    <span id="demo2" class="sp"></span>
+    <input type="text" name="entry.1171277350" autocomplete="off" id="t2" placeholder="Nick Name" class="tv" onblur="fun('demo2','t2')" onfocus="myFunction('demo2','t2','Have any Nick Name?')" >
+    <br></div><br>
+
+    <div class="ex3"  >
+    <span id="demo3" class="sp"></span>
+    <input type="text" name="" autocomplete="off" id="t3" placeholder="Birthdate" class="tv" onblur="fun('demo3','t3')" onfocus="myFunction('demo3','t3','What is your birthdate?')" >
+    <br></div><br>
+
+    <div class="ex3"  >
+    <span id="demo4" class="sp"></span>
+    <input type="text" name="entry.1171277350" autocomplete="off" id="t4" placeholder="Favourite Colour" class="tv" onblur="fun('demo4','t4')" onfocus="myFunction('demo4','t4','I know its crazy but, What&rsquo;s your Favourite Colour?')" >
+    <br></div><br>
+
+     <div class="ex3"  >
+    <span id="demo5" class="sp"></span>
+    <input type="text" name="entry.1171277350" autocomplete="off" id="t5" placeholder="Favourite Dish" class="tv" onblur="fun('demo5','t5')" onfocus="myFunction('demo5','t5','What&rsquo;s your Favourite Dish?')" >
+    <br></div><br>
+
+
+     <div class="ex3"  >
+    <span id="demo6" class="sp"></span>
+    <input type="text" name="entry.1171277350" autocomplete="off" id="t6" placeholder="Favourite Song" class="tv" onblur="fun('demo6','t6')" onfocus="myFunction('demo6','t6','Any Favourite Song?')" >
+    <br></div><br>
+
+     <div class="ex3"  >
+    <span id="demo7" class="sp"></span>
+    <input type="text" name="entry.1171277350" autocomplete="off" id="t7" placeholder="Favourite Movie" class="tv" onblur="fun('demo7','t7')" onfocus="myFunction('demo7','t7','Which is your Favourite Movie?')" >
+    <br></div><br>
+
+     <div class="ex3"  >
+    <span id="demo8" class="sp"></span>
+    <input type="text" name="entry.1171277350" autocomplete="off" id="t8" placeholder="Movie Star" class="tv" onblur="fun('demo8','t8')" onfocus="myFunction('demo8','t8','Any Favourite Movie Star?')" >
+    <br></div><br>
+
+    
+    <div class="ex2"><img class="img1" src="heart.png" width="38px">&nbsp;&nbsp;<span class="e2">Be Honest</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></div><br>
+
+
+     <div class="ex3"  >
+    <span id="demo9" class="sp"></span>
+    <input type="text" name="entry.1171277350" autocomplete="off" id="t9" placeholder="Dream Profession" class="tv" onblur="fun('demo9','t9')" onfocus="myFunction('demo9','t9','What&rsquo;s your Dream Profession?')" >
+    <br></div><br>
+   
+
+     <div class="ex3"  >
+    <span id="demo10" class="sp"></span>
+    <textarea name="entry.1171277350" value="new" autocomplete="off" id="t10" placeholder="Describe Yourself" class="tv3" onblur="fun('demo10','t10')" onfocus="myFunction('demo10','t10','')" ></textarea>
+    <br></div><br>
+   
+
+
+    
+<!--     <a href="#" onclick="all1()"><img src="right.png" width="50px"></a> -->
+      </div>
+    <input type="submit" value="Submit" onclick="win()">
+  </form>
+  
+
+
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
